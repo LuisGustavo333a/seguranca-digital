@@ -25,7 +25,7 @@ function fetchUsers() {
 }
 
 function deleteUser(userId) {
-    fetch(`https://661a90e1125e9bb9f29c5d0c.mockapi.io/tcc-golpe/usuarios/${userId}`, {
+    fetch(`https://661a90e1125e9bb9f29c5d0c.mockapi.io/tcc-seguranca-digital/usuarios/${userId}`, {
         method: "DELETE",
     })
     .then(response => {
