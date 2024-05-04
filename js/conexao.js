@@ -10,7 +10,7 @@ document
 
     const userDataArray = userData; // Criando um array com um único objeto contendo os dados do usuário
 
-    fetch("https://661a90e1125e9bb9f29c5d0c.mockapi.io/tcc-golpe/usuarios", {
+    fetch("https://661a90e1125e9bb9f29c5d0c.mockapi.io/tcc-seguranca-digital/usuarios", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
